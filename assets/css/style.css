@@ -1,0 +1,62 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    outline: 0 solid
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+
+.pd {
+  padding: 300px 0;
+}
+.img-hover img {
+  width: 100%;
+  height: 210px;
+  border: 2px solid #F9792D;
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: .8s;
+  -o-transition: .8s;
+  transition: .8s;
+  cursor: pointer;
+}
+.img-hover img:hover {
+  -webkit-filter: none;
+          filter: none;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+/*https://autoprefixer.github.io/*/
